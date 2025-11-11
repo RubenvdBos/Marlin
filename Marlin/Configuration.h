@@ -1668,7 +1668,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 8, 21, 1.2 }
+#define NOZZLE_TO_PROBE_OFFSET { 8, 21, -2.9 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -3709,8 +3709,8 @@
   #endif
 
   // Use some of the NeoPixel LEDs for static (background) lighting
-  #define NEOPIXEL_BKGD_INDEX_FIRST   12 // Index of the first background LED
-  #define NEOPIXEL_BKGD_INDEX_LAST    19 // Index of the last background LED
+  #define NEOPIXEL_BKGD_INDEX_FIRST   14 // Index of the first background LED
+  #define NEOPIXEL_BKGD_INDEX_LAST    20 // Index of the last background LED
   #define NEOPIXEL_BKGD_COLOR         { 255, 255, 255, 0 }  // R, G, B, W
   #define NEOPIXEL_BKGD_TIMEOUT_COLOR {  25,  25,  25, 0 }  // R, G, B, W
   #define NEOPIXEL_BKGD_ALWAYS_ON       // Keep the backlight on when other NeoPixels are off
